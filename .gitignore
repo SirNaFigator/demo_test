@@ -1,0 +1,6 @@
+/.idea/
+/.idea/*
+.well-known/
+.well-known/*
+-*.php
+-*.tpl
