@@ -1,0 +1,50 @@
+.datatable-header-top,
+.datatable-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.datatable-header-left,
+.datatable-footer-left {
+	flex: 1;
+}
+
+.datatable-header-right,
+.datatable-footer-right {
+	flex: 1;
+	text-align: right;
+}
+
+.datatable-toolbar {
+	margin-bottom: 1rem;
+	text-align: left;
+}
+
+.dt-buttons {
+	position: relative;
+	float: none;
+	display: inline-block;
+	margin: 0;
+}
+.datatable-export-label,
+.datatable-export-buttons {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+.datatable-export-label {
+	padding: 5px 10px 0 0;
+}
+
+@media (min-width: 769px) {
+	.dropzone {
+		min-height: 200px;
+	}
+}
+
+#cash_forecast_chart {
+	width: 100%;
+	height: 360px;
+}
